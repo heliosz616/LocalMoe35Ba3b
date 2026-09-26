@@ -1,0 +1,56 @@
+{
+  "passed": true,
+  "rows": [
+    {
+      "activation": "w8a16",
+      "ready_seconds": 40.41130430693738,
+      "requests": [
+        {
+          "prompt_tokens": 3540,
+          "generated_tokens": 29,
+          "prefill_seconds": 4.056121669942513,
+          "prefill_tokens_per_second": 872.7548846063515,
+          "decode_tokens_per_second": 22.373523503063364,
+          "peak_cuda_bytes": 10417821696,
+          "retained_experts": 1800
+        },
+        {
+          "prompt_tokens": 26,
+          "generated_tokens": 3,
+          "prefill_seconds": 1.7083916831761599,
+          "prefill_tokens_per_second": 15.218992375133814,
+          "decode_tokens_per_second": 20.040779147938252,
+          "peak_cuda_bytes": 9966817280,
+          "retained_experts": 1800
+        }
+      ],
+      "bounds_and_recovery_passed": true
+    },
+    {
+      "activation": "w8a8",
+      "ready_seconds": 38.574732914799824,
+      "requests": [
+        {
+          "prompt_tokens": 3540,
+          "generated_tokens": 27,
+          "prefill_seconds": 3.8765626188833266,
+          "prefill_tokens_per_second": 913.1801412818978,
+          "decode_tokens_per_second": 22.157107939407553,
+          "peak_cuda_bytes": 10417821696,
+          "retained_experts": 1800
+        },
+        {
+          "prompt_tokens": 26,
+          "generated_tokens": 3,
+          "prefill_seconds": 1.7097440478391945,
+          "prefill_tokens_per_second": 15.206954533843396,
+          "decode_tokens_per_second": 20.817279712595077,
+          "peak_cuda_bytes": 9966817280,
+          "retained_experts": 1800
+        }
+      ],
+      "bounds_and_recovery_passed": true
+    }
+  ],
+  "scope": "Public CLI smoke, bounds/recovery and arithmetic; not a rerun of the private quality suite or universal throughput acceptance."
+}

@@ -1,0 +1,27 @@
+# Never commit checkpoints, user inputs, caches, environments or credentials.
+*.safetensors
+*.pt
+*.pth
+*.bin
+*.gguf
+*.npy
+*.npz
+*.parquet
+*.jsonl
+*.sqlite*
+*.log
+*.trace
+.env*
+*.pem
+*.key
+models/
+data/
+outputs/
+traces/
+private/
+.venv/
+__pycache__/
+*.pyc
+*.egg-info/
+build/
+dist/

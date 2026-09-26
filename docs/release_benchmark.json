@@ -1,0 +1,54 @@
+{
+  "rows": [
+    {
+      "repeat": 0,
+      "warmup": true,
+      "prompt_tokens": 4084,
+      "generated_tokens": 31,
+      "prefill_seconds": 4.769806090043858,
+      "prefill_tokens_per_second": 856.2192933848278,
+      "decode_tokens_per_second": 22.486205594711073,
+      "model_seconds": 6.10399117693305,
+      "peak_cuda_bytes": 10470163456
+    },
+    {
+      "repeat": 1,
+      "warmup": false,
+      "prompt_tokens": 4084,
+      "generated_tokens": 31,
+      "prefill_seconds": 3.7286217950750142,
+      "prefill_tokens_per_second": 1095.310874756563,
+      "decode_tokens_per_second": 22.699803592527868,
+      "model_seconds": 5.050253139110282,
+      "peak_cuda_bytes": 10470249472
+    },
+    {
+      "repeat": 2,
+      "warmup": false,
+      "prompt_tokens": 4084,
+      "generated_tokens": 31,
+      "prefill_seconds": 3.7163825451862067,
+      "prefill_tokens_per_second": 1098.918087775965,
+      "decode_tokens_per_second": 22.577498575449308,
+      "model_seconds": 5.045172030106187,
+      "peak_cuda_bytes": 10470249472
+    },
+    {
+      "repeat": 3,
+      "warmup": false,
+      "prompt_tokens": 4084,
+      "generated_tokens": 31,
+      "prefill_seconds": 3.735708211082965,
+      "prefill_tokens_per_second": 1093.2331352549793,
+      "decode_tokens_per_second": 22.620529562848162,
+      "model_seconds": 5.061967364978045,
+      "peak_cuda_bytes": 10470249472
+    }
+  ],
+  "summary": {
+    "prefill_tokens_per_second": 1095.8156686111226,
+    "decode_tokens_per_second": 22.632497285044995,
+    "all_measured_minimum_met": true
+  },
+  "scope": "One repeated public synthetic prompt, first request retained separately; not private eight-domain evaluation or universal acceptance."
+}

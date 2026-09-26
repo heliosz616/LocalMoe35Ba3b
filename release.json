@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "profile": "rtx3060-4k",
+  "artifact_fingerprint": "90ef5501e3360ea4f20bea58e30bd6610bcff51a477e28164014b71f6fa6feb4",
+  "versions": {
+    "torch": "2.12.0+cu132",
+    "triton": "3.7.0",
+    "transformers": "5.15.0",
+    "accelerate": "1.14.0",
+    "safetensors": "0.8.0"
+  },
+  "source_sha256": {
+    "qwen35_deploy/__init__.py": "bbe26b5788f16f1b0420579c875ca578b577bfd7f98eb01ca0f71496d2009dac",
+    "qwen35_deploy/__main__.py": "71a1d5feff60b3ae9ed116a2cd064afe0f847acb65e1c3529308c2c9a617c9d5",
+    "qwen35_deploy/cli.py": "41c856ab69946313e66a247eda06589e7c303df125067fe3e9c17071ce1fb500",
+    "qwen35_deploy/convert.py": "c15dd1960c57f59413dfdc59df40767998fdea944a86cd505b12a3a6592ac600",
+    "qwen35_deploy/generation.py": "3b0111e06b15b9a0818570ecda5a44c3032723391b4a78ee436a772af81d4123",
+    "qwen35_deploy/model.py": "857fc327689a21e2cc73eb24f00723e9a91d729c9619ee6eaecd1ad74de8e447",
+    "qwen35_deploy/operators/__init__.py": "bbe26b5788f16f1b0420579c875ca578b577bfd7f98eb01ca0f71496d2009dac",
+    "qwen35_deploy/operators/gdn_graph.py": "3776335d79858fb9251fa0136f348c07daf43e578867b32727c09dea90b178c2",
+    "qwen35_deploy/operators/int8.py": "9821bf411cb166c7c0e787a4107c886513b31e3232a4a6515f41c3f7374d2790",
+    "qwen35_deploy/operators/routing.py": "2d343f9340522050315c0fbfaffd08227a36ab3d07f798dc5d23345f7ec098f7",
+    "qwen35_deploy/operators/w8a8.py": "60561eace3997dd219d416d0f1ac4afda97021e5afc77355055a6da83c066327",
+    "qwen35_deploy/release.py": "917032c429c6284c58eeb08116ea86f51bbe5a23ec3ff3b57c112602382b8bb3",
+    "qwen35_deploy/runtime/__init__.py": "bbe26b5788f16f1b0420579c875ca578b577bfd7f98eb01ca0f71496d2009dac",
+    "qwen35_deploy/runtime/frequency_seed.py": "709bddad922af4937d96f65b18da625607a5f74281e938ef79692d2365317f67",
+    "qwen35_deploy/runtime/gpu_routes.py": "7b8d4617c82127961cab010899455b7352c8e0440781b683da6851433f3e94b2",
+    "qwen35_deploy/runtime/prefill.py": "3aa4a46a5354e2f28a21b94c6477ef9905139657ce8f151e16e42b7309c46b40",
+    "qwen35_deploy/runtime/prepare_decode.py": "5bd23c5d5ebd4a3b14f43584a408e3337eaa247ed10d5d01c3983a741bfce897",
+    "qwen35_deploy/runtime/seeded_cache.py": "65659c7503b4e31bfd047c9dc7577abf14977c7dca9a1e4eb6fb3a08af9ac2b4",
+    "qwen35_deploy/runtime/slab_cache.py": "f0cf7eba09e81ee260d9e47202922f7f9101b1a3bc2f743b63ec5893c6331f5e"
+  },
+  "scope": "Integrity record for the source distribution and tested payload; not a signature, an independent quality evaluation, or a universal performance guarantee."
+}
